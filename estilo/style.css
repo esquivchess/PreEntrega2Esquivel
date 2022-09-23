@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d5d5d3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #811812;
+  text-align: center;
+  padding: 20px;
+}
+h3 {
+  font-size: 2rem;
+}
+
+#top {
+  text-align: start;
+}
+
+.logo {
+  width: 55px;
+  position: absolute;
+  padding: 0.5rem;
+}
+
+.navbar {
+  text-align: end;
+}
+
+.menu {
+  list-style-type: none;
+  background-color: #811812;
+  padding: 0;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-align: end;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 20px;
+  transition: 0.5s all ease;
+}
+
+.menu li a:hover {
+  background-color: rgb(194, 44, 36);
+}
+
+@media .section1 (max-width 600px) {
+  background-color: red;
+}
+
+.section1 {
+  background-color: #811812;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 60%;
+  margin: 10rem auto 0 auto;
+  margin-top: 200px;
+
+}
+
+
+.divsitotext {
+  display: flex;
+  background-color: #811812;
+  margin-left: 20px;
+}
+
+.textcalist {
+  font-family: 'Esteban', serif;
+  color: #d5d5d3;
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.textcalist span {
+  color: rgb(196, 32, 23);
+}
+
+.textcalist span:hover {
+  color: rgb(233, 36, 25);
+}
+
+.textcalist a {
+  text-decoration: none;
+}
+
+.section2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section2 a button {
+  background-color: #811812;
+  padding: 16px;
+  color: #d5d5d3;
+  font-weight: bolder;
+  border: none;
+  font-weight: bolder;
+}
+
+.section2 a button p{
+  font-size: 0.7rem;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+  background-color: rgb(194, 44, 36);
+}
+
+footer {
+  text-align: center;
+  background-color: #811812;
+  padding: 0;
+  width: 100%;
+  margin-top: 100px;
+}
+
+footer .social li{
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.7rem;
+  padding: 8px;
+}
+
+footer .social li a {
+  color: #fff;
+  text-decoration: none;
+}
